@@ -9,8 +9,8 @@ use PHPUnit\Framework\TestCase;
 
 use SplFileInfo;
 use Fig\Http\Message\StatusCodeInterface as Code;
-use Zend\Diactoros\ServerRequestFactory;
-use Zend\Diactoros\Response;
+use Laminas\Diactoros\ServerRequestFactory;
+use Laminas\Diactoros\Response;
 use Lmc\HttpConstants\Header;
 
 class FileResponderTest extends TestCase

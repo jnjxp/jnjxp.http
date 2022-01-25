@@ -6,9 +6,9 @@ namespace Jnjxp\Http\Input;
 
 use PHPUnit\Framework\TestCase;
 
-use Zend\Diactoros\ServerRequestFactory;
-use Zend\Diactoros\UploadedFileFactory;
-use Zend\Diactoros\Stream;
+use Laminas\Diactoros\ServerRequestFactory;
+use Laminas\Diactoros\UploadedFileFactory;
+use Laminas\Diactoros\Stream;
 use SplFileInfo;
 
 
