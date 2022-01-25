@@ -4,21 +4,20 @@
     "description": "HTTP Utilities",
     "license": "MIT",
     "require": {
-        "php": ">=7.1",
         "fig/http-message-util": "^1.1",
         "lmc/http-constants": "^1.0",
-        "nyholm/psr7-server": "^0.3.0",
         "php-http/discovery": "^1.6",
         "psr/container": "^1.0",
         "psr/http-factory": "^1.0",
         "psr/http-message": "^1.0",
-        "psr/http-message-implementation": "^1.0"
+        "psr/http-message-implementation": "^1.0",
+        "laminas/laminas-dependency-plugin": "^2.1",
+        "nyholm/psr7-server": "^1.0"
     },
     "require-dev": {
         "pds/skeleton": "~1.0",
-        "phpstan/phpstan": "^0.11.5",
         "phpunit/phpunit": "^8.0",
-        "zendframework/zend-diactoros": "^2.1"
+        "laminas/laminas-diactoros": "^2.1"
     },
     "autoload": {
         "psr-4": {
@@ -28,6 +27,12 @@
     "autoload-dev": {
         "psr-4": {
             "Jnjxp\\Http\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ocramius/package-versions": true,
+            "laminas/laminas-dependency-plugin": true
         }
     }
 }
