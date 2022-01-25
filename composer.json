@@ -1,0 +1,33 @@
+{
+    "name": "jnjxp/http",
+    "type": "project",
+    "description": "HTTP Utilities",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "fig/http-message-util": "^1.1",
+        "lmc/http-constants": "^1.0",
+        "nyholm/psr7-server": "^0.3.0",
+        "php-http/discovery": "^1.6",
+        "psr/container": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-message-implementation": "^1.0"
+    },
+    "require-dev": {
+        "pds/skeleton": "~1.0",
+        "phpstan/phpstan": "^0.11.5",
+        "phpunit/phpunit": "^8.0",
+        "zendframework/zend-diactoros": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\Http\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jnjxp\\Http\\": "tests/"
+        }
+    }
+}
